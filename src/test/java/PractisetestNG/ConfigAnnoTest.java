@@ -28,6 +28,10 @@ public class ConfigAnnoTest {
     public void createContact1(){
         System.out.println("Execute create contact 1");
     }
+    @Test
+    public void deleteContact(){
+        System.out.println("Delete contact");
+    }
     @AfterMethod
     public void afterMtd(){
         System.out.println("Execute AM");
