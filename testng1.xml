@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ADMIN/IdeaProjects/Priority/src/test/java/PractisetestNG/ConfigAnnoTest.java">
+        <classes>
+            <class name="PractisetestNG.ConfigAnnoTest"><methods><include name="createContact"/><include name="createContact1"/></methods></class>
+            <class name="PractisetestNG.DataProviderExample"><methods><include name="createContact"/></methods></class>
+        </classes>
+    </test>
+
+</suite>
