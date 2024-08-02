@@ -23,6 +23,11 @@ public class ConfigAnnoTest {
     @Test
     public void createContact(){
         System.out.println("Execute create contact");
+        String NAME = System.getProperty("name");
+        String DSG = System.getProperty("dsg");
+
+        System.out.println(NAME);
+        System.out.println(DSG);
     }
     @Test
     public void createContact1(){
